@@ -290,8 +290,10 @@ export default function getStyle(fontSize = '12px', fontFamily = 'Arial, sans-se
     'chart-dependency-lines-wrapper': {},
     'chart-dependency-lines-path': {
       fill: 'transparent',
-      stroke: '#FFa00090',
-      'stroke-width': 2
+      // stroke: '#1a2c5b',
+      'stroke-width': 2,
+      'marker-start': 'url(#markerCircle)',
+      'marker-end': 'url(#markerArrow)'
     },
     'chart-scroll-container': {},
     'chart-scroll-container--horizontal': {
